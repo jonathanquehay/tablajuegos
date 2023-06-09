@@ -9,15 +9,19 @@ body {
 
 table {
   width: 100%;
-  border-collapse: collapse;
+
   font-size: 18px;
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
 }
 
-th,
 td {
-  padding: 12px;
+  text-align: center;
+}
+
+th {
+
   text-align: center;
   border-bottom: 1px solid #ddd;
 }
@@ -27,16 +31,22 @@ button {
   background: none;
   font-size: 20px;
   cursor: pointer;
+
 }
 
 img {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
+
 }
 
 #resultados-list {
   list-style: none;
   padding: 0;
+}
+
+.agregar {
+  text-align: center;
 }
 
 #resultados-list li {
