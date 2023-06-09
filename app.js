@@ -103,6 +103,11 @@ filasJugadores.forEach(function (fila) {
       }
     }
 
+    contenedor.classList.add('efecto-flecha');
+    setTimeout(function () {
+      contenedor.classList.remove('efecto-flecha');
+    }, 300); // 2000 milisegundos = 2 segundos
+
     // Actualizar la lista de resultados
     actualizarResultados();
   }

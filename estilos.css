@@ -93,3 +93,53 @@ h2 {
   font-weight: 1000;
   font-size: 30px;
 }
+
+@keyframes temblor {
+  0% {
+    transform: translateX(0);
+  }
+
+  10% {
+    transform: translateX(-4px) rotateZ(-20deg);
+  }
+
+  20% {
+    transform: translateX(2px) rotateZ(20deg);
+  }
+
+  30% {
+    transform: translateX(-4px) rotateZ(-5deg);
+  }
+
+  40% {
+    transform: translateX(2px) rotateZ(30deg);
+  }
+
+  50% {
+    transform: translateX(-4px) rotateZ(-30deg);
+  }
+
+  60% {
+    transform: translateX(10px) rotateZ(10deg);
+  }
+
+  70% {
+    transform: translateX(-4px) rotateZ(-30deg);
+  }
+
+  80% {
+    transform: translateX(2px) rotateZ(5deg);
+  }
+
+  90% {
+    transform: translateX(-20px) rotateZ(-10deg);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.efecto-flecha {
+  animation: temblor 0.5s linear infinite;
+}
